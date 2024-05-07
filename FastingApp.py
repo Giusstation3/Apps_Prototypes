@@ -15,6 +15,7 @@ entry = ttk.Entry(master = window,width=5,font=('Arial',40),justify='center',)
 entry.pack()
 entry.bind('<FocusOut>', lambda event: calculate_hours(entry.get()))
 
+h=1
 
 entry2 = ttk.Entry(master = window,width=5,font=('Arial',40),justify='center',)
 entry2.pack()
